@@ -64,8 +64,8 @@ el.onkeydown = function(evt) {
   evt = evt || window.event;
   key = evt.keyCode;
 
-  if (key == aleft) hdiff = hdiff + default_diff;
-  if (key == aright) hdiff = hdiff - default_diff;
+  if (key == aright) hdiff = hdiff + default_diff;
+  if (key == aleft) hdiff = hdiff - default_diff;
 
   if (key == aup) vdiff = vdiff + default_diff;
   if (key == adown) vdiff = vdiff - default_diff;
